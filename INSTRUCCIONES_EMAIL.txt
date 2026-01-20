@@ -1,0 +1,50 @@
+CONFIGURACIÓN DEL FORMULARIO DE CONTACTO - EmailJS
+====================================================
+
+El formulario de contacto ya está implementado y funcional. Solo necesitas configurar tu cuenta de EmailJS.
+
+PASOS PARA ACTIVAR EL FORMULARIO:
+
+1. Crear cuenta en EmailJS (GRATIS):
+   - Ve a: https://www.emailjs.com/
+   - Crea una cuenta gratuita (permite 200 emails/mes gratis)
+
+2. Configurar el servicio de email:
+   - Ve a "Email Services" en el dashboard
+   - Haz clic en "Add New Service"
+   - Selecciona "Outlook/Hotmail" (ya que usas @hotmail.com)
+   - Ingresa: Alvacon2003@hotmail.com
+   - Copia el SERVICE_ID que te dan
+
+3. Crear una plantilla de email:
+   - Ve a "Email Templates" en EmailJS
+   - Crea un nuevo template con este contenido:
+   
+   Asunto: Nuevo mensaje de contacto - {{from_name}}
+   
+   Contenido:
+   Has recibido un nuevo mensaje desde el sitio web de Alvas Consultores:
+   
+   Nombre: {{from_name}}
+   Email: {{from_email}}
+   Servicio de Interés: {{servicio}}
+   
+   Mensaje:
+   {{message}}
+
+4. **Reemplazar las claves en el código:**
+   - En [index.html](HTML/index.html) línea 355: Reemplaza `"TU_PUBLIC_KEY"` con tu Public Key
+   - En [main.js](../JS/main.js) línea 321: Reemplaza `'TU_SERVICE_ID'` y `'TU_TEMPLATE_ID'` con tus IDs
+
+**Pasos para configurar EmailJS:**
+
+1. Ve a [https://www.emailjs.com/](https://www.emailjs.com/) y crea una cuenta gratuita
+2. Crea un servicio de email (conecta tu cuenta de Hotmail)
+3. Crea una plantilla de email con estas variables: `{{from_name}}`, `{{from_email}}`, `{{servicio}}`, `{{message}}`
+4. Copia tu PUBLIC_KEY, SERVICE_ID y TEMPLATE_ID
+5. Reemplaza en el código:
+   - `TU_PUBLIC_KEY` con tu clave pública
+   - `TU_SERVICE_ID` con tu ID de servicio
+   - `TU_TEMPLATE_ID` con tu ID de plantilla
+
+Una vez configurado, los mensajes del formulario llegarán automáticamente a Alvacon2003@hotmail.com. El servicio es gratuito hasta 200 emails/mes.

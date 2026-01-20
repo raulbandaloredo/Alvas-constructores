@@ -1,0 +1,478 @@
+/* ========================================
+   Mobile Spacing Enhancements
+   Mejoras de espaciado para móviles
+   ======================================== */
+
+/* Espaciado general mejorado para tablets y móviles grandes */
+@media (max-width: 768px) {
+    /* Servicios con más respiración */
+    .servicios {
+        padding: 4rem 0;
+    }
+    
+    .servicios .container {
+        padding: 0 1.5rem;
+    }
+    
+    .servicios-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .servicio-card {
+        padding: 2rem 1.75rem;
+        border-radius: 20px;
+        min-height: auto;
+        height: auto;
+    }
+    
+    .servicio-icon {
+        margin-bottom: 1.5rem;
+    }
+    
+    .servicio-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+        line-height: 1.4;
+    }
+    
+    .servicio-card > p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.75;
+    }
+    
+    .servicio-card ul {
+        margin-top: 1rem;
+    }
+    
+    .servicio-card ul li {
+        padding: 0.75rem 0;
+        padding-left: 2rem;
+        font-size: 0.975rem;
+    }
+    
+    /* Coaching/Carrusel con más espacio */
+    .coaching {
+        padding: 4rem 0;
+    }
+    
+    .carousel {
+        padding: 1.5rem 0;
+        max-width: 100%;
+    }
+    
+    .carousel-container {
+        margin: 0 1rem;
+        border-radius: 25px;
+    }
+    
+    .carousel-slide {
+        padding: 3rem 2rem;
+        min-height: 350px;
+    }
+    
+    .slide-content {
+        padding: 0 0.5rem;
+    }
+    
+    .slide-icon {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .slide-content h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.4;
+    }
+    
+    .slide-content p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        padding: 0 1.5rem;
+    }
+    
+    .carousel-indicators {
+        margin-top: 2rem;
+        gap: 0.75rem;
+    }
+    
+    /* Programas con mejor espaciado */
+    .programas {
+        padding: 4rem 0;
+    }
+    
+    .programas-grid {
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .programa-card {
+        padding: 2.5rem 2rem;
+        border-radius: 20px;
+    }
+    
+    .programa-number {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .programa-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+        line-height: 1.4;
+    }
+    
+    .programa-card p {
+        font-size: 1rem;
+        line-height: 1.85;
+    }
+    
+    /* Nosotros/Equipo con más espacio */
+    .nosotros {
+        padding: 4rem 0;
+    }
+    
+    .equipo-grid {
+        gap: 2.5rem;
+        margin-top: 1rem;
+    }
+    
+    .equipo-card {
+        padding: 2.5rem 2rem;
+        border-radius: 25px;
+    }
+    
+    .equipo-photo {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 2rem;
+        border: 6px solid var(--color-accent-orange);
+    }
+    
+    .equipo-card h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cargo {
+        font-size: 1.15rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .descripcion {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    
+    /* Contacto con más espacio */
+    .contacto {
+        padding: 4rem 0;
+    }
+    
+    .contacto-grid {
+        gap: 2.5rem;
+        margin-top: 1rem;
+    }
+    
+    .info-item {
+        padding: 1.75rem;
+        border-radius: 18px;
+        margin-bottom: 0.75rem;
+    }
+    
+    .info-icon {
+        font-size: 2.75rem;
+        margin-right: 0.5rem;
+    }
+    
+    .info-content h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    .info-content p {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+        line-height: 1.7;
+    }
+    
+    .info-content small {
+        font-size: 0.9rem;
+        margin-top: 0.75rem;
+    }
+    
+    /* Formulario con mejor espaciado */
+    .contacto-form {
+        padding: 2.5rem 2rem;
+        border-radius: 25px;
+    }
+    
+    .form-group {
+        margin-bottom: 2rem;
+    }
+    
+    .form-group label {
+        font-size: 1.05rem;
+        margin-bottom: 0.875rem;
+        display: block;
+    }
+    
+    .form-group input,
+    .form-group select {
+        padding: 1.125rem 1rem;
+        font-size: 1rem;
+        border-radius: 12px;
+    }
+    
+    .form-group textarea {
+        padding: 1.125rem 1rem;
+        font-size: 1rem;
+        border-radius: 12px;
+        min-height: 140px;
+    }
+    
+    .contacto-form .btn-primary {
+        margin-top: 1rem;
+        padding: 1.25rem 2rem;
+        font-size: 1.05rem;
+    }
+    
+    /* Footer con mejor espaciado */
+    .footer {
+        padding: 3.5rem 0 2rem;
+    }
+    
+    .footer-content {
+        gap: 2.5rem;
+        padding: 1.5rem 0;
+    }
+    
+    .footer-logo,
+    .footer-links,
+    .footer-contacto {
+        padding: 0 1.5rem;
+    }
+    
+    .footer-logo p {
+        margin-top: 1.25rem;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    
+    .footer-links h4,
+    .footer-contacto h4 {
+        font-size: 1.35rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .footer-links ul li {
+        margin-bottom: 0.75rem;
+    }
+    
+    .footer-links a {
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer-contacto p {
+        margin-bottom: 0.875rem;
+        font-size: 1rem;
+    }
+    
+    .footer-bottom {
+        padding-top: 2rem;
+        margin-top: 2rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Ajustes para móviles medianos (480px) */
+@media (max-width: 480px) {
+    /* Reducir un poco el espaciado pero mantenerlo cómodo */
+    .servicios,
+    .coaching,
+    .programas,
+    .nosotros,
+    .contacto {
+        padding: 3.5rem 0;
+    }
+    
+    .servicios .container,
+    .programas .container,
+    .nosotros .container,
+    .contacto .container {
+        padding: 0 1.25rem;
+    }
+    
+    .servicios-grid {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+    }
+    
+    .programas-grid,
+    .equipo-grid,
+    .contacto-grid {
+        gap: 1.75rem;
+    }
+    
+    .servicio-card,
+    .programa-card,
+    .equipo-card {
+        padding: 1.875rem 1.5rem;
+    }
+    
+    .carousel-slide {
+        padding: 2.5rem 1.75rem;
+        min-height: 320px;
+    }
+    
+    .slide-content p {
+        padding: 0 1rem;
+        font-size: 1.05rem;
+    }
+    
+    .equipo-photo {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 1.75rem;
+    }
+    
+    .info-item {
+        padding: 1.5rem 1.25rem;
+    }
+    
+    .contacto-form {
+        padding: 2.25rem 1.75rem;
+    }
+    
+    .form-group {
+        margin-bottom: 1.75rem;
+    }
+}
+
+/* Ajustes para móviles pequeños (360px) */
+@media (max-width: 360px) {
+    .servicios,
+    .coaching,
+    .programas,
+    .nosotros,
+    .contacto {
+        padding: 3rem 0;
+    }
+    
+    .servicio-card,
+    .programa-card,
+    .equipo-card {
+        padding: 1.625rem 1.25rem;
+    }
+    
+    .servicio-card h3,
+    .programa-card h3,
+    .equipo-card h3 {
+        font-size: 1.35rem;
+    }
+    
+    .carousel-slide {
+        padding: 2.25rem 1.5rem;
+        min-height: 300px;
+    }
+    
+    .slide-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .slide-content p {
+        font-size: 1rem;
+        padding: 0 0.75rem;
+    }
+    
+    .equipo-photo {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .contacto-form {
+        padding: 2rem 1.5rem;
+    }
+}
+
+/* Mejoras de legibilidad */
+@media (max-width: 768px) {
+    /* Aumentar contraste de textos */
+    .servicio-card > p,
+    .programa-card p,
+    .descripcion,
+    .info-content p {
+        color: #374151;
+    }
+    
+    /* Mejorar áreas de toque */
+    .servicio-card ul li,
+    .footer-links a,
+    .nav a {
+        position: relative;
+    }
+    
+    /* Espacio entre párrafos */
+    p + p {
+        margin-top: 1rem;
+    }
+    
+    /* Títulos con más espacio */
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 1.5em;
+        margin-bottom: 0.75em;
+    }
+    
+    h1:first-child,
+    h2:first-child,
+    h3:first-child {
+        margin-top: 0;
+    }
+}
+
+/* Animaciones suaves de entrada para elementos */
+@media (max-width: 768px) {
+    .servicio-card,
+    .programa-card,
+    .equipo-card,
+    .info-item {
+        transform: translateZ(0);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .servicio-card:active,
+    .programa-card:active,
+    .equipo-card:active {
+        transform: scale(0.98);
+    }
+}
+
+/* Mejora de espaciado en landscape */
+@media (max-width: 900px) and (max-height: 500px) and (orientation: landscape) {
+    section {
+        padding: 2.5rem 0 !important;
+    }
+    
+    .section-title {
+        margin-bottom: 0.75rem;
+    }
+    
+    .section-subtitle {
+        margin-bottom: 1.5rem;
+    }
+    
+    .servicios-grid,
+    .programas-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+    }
+    
+    .servicio-card,
+    .programa-card {
+        padding: 1.5rem 1.25rem;
+    }
+}

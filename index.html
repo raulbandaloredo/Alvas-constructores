@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Alvas Consultores - Soluciones integrales en recursos humanos, desarrollo y asesoría empresarial">
+    <meta name="theme-color" content="#1e3a52">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Alvas Consultores</title>
+    <link rel="icon" type="image/png" href="ASSETS/IMAGES/ALVAS CIRCULO AZUL.png">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/mobile-enhancements.css">
+    <link rel="stylesheet" href="CSS/mobile-spacing.css">
+</head>
+<body>
+    <!-- Header con Logo -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="ASSETS/IMAGES/Recurso 1.png" alt="Alvas Consultores" class="logo-image">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#coaching">Coaching</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-decorations">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Esto es lo que hacemos por tu empresa.</h2>
+                <p class="hero-subtitle">Transformamos tu negocio con soluciones integrales en recursos humanos, desarrollo y asesoría empresarial</p>
+                <a href="#servicios" class="btn-primary">Conocer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Áreas Principales / Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2 class="section-title">Áreas Principales</h2>
+            <p class="section-subtitle">Nuestros servicios especializados para impulsar tu empresa</p>
+            
+            <div class="servicios-grid">
+                <!-- Recursos Humanos -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Área de Recursos Humanos</h3>
+                    <p>Gestión integral del talento humano, desde reclutamiento hasta desarrollo organizacional.</p>
+                    <ul>
+                        <li>Reclutamiento y selección</li>
+                        <li>Administración de personal</li>
+                        <li>Evaluación de desempeño</li>
+                        <li>Clima laboral</li>
+                    </ul>
+                </div>
+
+                <!-- Desarrollo Humano -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 3L1 9L12 15L21 10.09V17H23V9M5 13.18V17.18L12 21L19 17.18V13.18L12 17L5 13.18Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Desarrollo Humano</h3>
+                    <p>Programas de capacitación y formación para potenciar las habilidades de tu equipo.</p>
+                    <ul>
+                        <li>Capacitación empresarial</li>
+                        <li>Desarrollo de competencias</li>
+                        <li>Liderazgo y trabajo en equipo</li>
+                        <li>Planes de carrera</li>
+                    </ul>
+                </div>
+
+                <!-- Asesoría Administrativa -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.89 22 5.99 22H18C19.1 22 20 21.1 20 20V8L14 2ZM18 20H6V4H13V9H18V20ZM8 15.01L9.41 16.42L11 14.84V19H13V14.84L14.59 16.43L16 15.01L12.01 11L8 15.01Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Asesoría Administrativa</h3>
+                    <p>Consultoría especializada para optimizar los procesos administrativos de tu organización.</p>
+                    <ul>
+                        <li>Optimización de procesos</li>
+                        <li>Estructura organizacional</li>
+                        <li>Políticas y procedimientos</li>
+                        <li>Gestión del cambio</li>
+                    </ul>
+                </div>
+
+                <!-- Headhunting -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Headhunting</h3>
+                    <p>Búsqueda especializada de talento ejecutivo y posiciones clave para tu empresa.</p>
+                    <ul>
+                        <li>Búsqueda de ejecutivos</li>
+                        <li>Evaluación de candidatos</li>
+                        <li>Perfiles especializados</li>
+                        <li>Procesos confidenciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Área de Coaching - Carrusel -->
+    <section id="coaching" class="coaching">
+        <div class="container">
+            <h2 class="section-title">Área de Coaching</h2>
+            <p class="section-subtitle">Acompañamiento personalizado para el crecimiento personal y profesional</p>
+            
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <div class="slide-content">
+                            <div class="slide-icon">🎯</div>
+                            <h3>Coaching Ejecutivo</h3>
+                            <p>Desarrolla tus habilidades de liderazgo y alcanza tu máximo potencial como líder empresarial.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-icon">👥</div>
+                            <h3>Coaching de Equipos</h3>
+                            <p>Fortalece la cohesión y efectividad de tu equipo mediante procesos de coaching grupal.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-icon">💼</div>
+                            <h3>Coaching Organizacional</h3>
+                            <p>Transforma la cultura organizacional y potencia el desarrollo integral de tu empresa.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-icon">⚡</div>
+                            <h3>Coaching de Alto Rendimiento</h3>
+                            <p>Optimiza el desempeño individual y colectivo para alcanzar resultados excepcionales.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn prev" aria-label="Anterior">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.41 7.41L14 6L8 12L14 18L15.41 16.59L10.83 12L15.41 7.41Z" fill="currentColor"/>
+                    </svg>
+                </button>
+                <button class="carousel-btn next" aria-label="Siguiente">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.59 16.59L10 18L16 12L10 6L8.59 7.41L13.17 12L8.59 16.59Z" fill="currentColor"/>
+                    </svg>
+                </button>
+                
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programas de Compac -->
+    <section class="programas">
+        <div class="container">
+            <h2 class="section-title">Programas de Compac</h2>
+            <p class="section-subtitle">Soluciones especializadas para el desarrollo empresarial</p>
+            
+            <div class="programas-grid">
+                <div class="programa-card">
+                    <div class="programa-number">01</div>
+                    <h3>Programa de Certificación</h3>
+                    <p>Certificaciones especializadas en competencias laborales y desarrollo profesional.</p>
+                </div>
+                
+                <div class="programa-card">
+                    <div class="programa-number">02</div>
+                    <h3>Programa de Innovación</h3>
+                    <p>Impulsa la innovación en tu organización con metodologías probadas.</p>
+                </div>
+                
+                <div class="programa-card">
+                    <div class="programa-number">03</div>
+                    <h3>Programa de Transformación</h3>
+                    <p>Acompaña tu empresa en procesos de cambio y transformación digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="nosotros">
+        <div class="container">
+            <h2 class="section-title">Nosotros</h2>
+            <p class="section-subtitle">Conoce a nuestro equipo de expertos</p>
+            
+            <div class="equipo-grid">
+                <div class="equipo-card">
+                    <div class="equipo-photo">
+                        <div class="photo-placeholder">MB</div>
+                    </div>
+                    <h3>Martha Butron</h3>
+                    <p class="cargo">Directora de Headhunting</p>
+                    <p class="descripcion">Especialista en búsqueda de talento ejecutivo con más de 15 años de experiencia en el sector.</p>
+                </div>
+                
+                <div class="equipo-card">
+                    <div class="equipo-photo">
+                        <div class="photo-placeholder">RA</div>
+                    </div>
+                    <h3>Ricardo Alvarez</h3>
+                    <p class="cargo">Director General</p>
+                    <p class="descripcion">Consultor empresarial con amplia trayectoria en desarrollo organizacional y gestión del talento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">Estamos aquí para ayudarte</p>
+            
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Teléfono</h3>
+                            <p>Provisional: 444 328 8433</p>
+                            <small>(Los números cambiarán próximamente)</small>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-content">
+                            <h3>Correo Electrónico</h3>
+                            <p>Alvacon2003@hotmail.com</p>
+                            <p>Ventas_alvaconsultores@hotmail.com</p>
+                            <small>(Los correos cambiarán con la compra de licencias/dominio)</small>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">🌐</div>
+                        <div class="info-content">
+                            <h3>Dominios por Área</h3>
+                            <p>Búsqueda de dominios especializados por área en proceso</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contacto-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="servicio">Servicio de Interés</label>
+                            <select id="servicio" name="servicio" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="rrhh">Recursos Humanos</option>
+                                <option value="desarrollo">Desarrollo Humano</option>
+                                <option value="asesoria">Asesoría Administrativa</option>
+                                <option value="headhunting">Headhunting</option>
+                                <option value="coaching">Coaching</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="ASSETS/IMAGES/Recurso 1.png" alt="Alvas Consultores" class="logo-image">
+                    </div>
+                    <p>Esto es lo que hacemos por tu empresa.</p>
+                </div>
+                
+                <div class="footer-contacto">
+                    <h4>Contacto</h4>
+                    <p>📞 444 328 8433</p>
+                    <p>✉️ Alvacon2003@hotmail.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alvas Consultores. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "TU_PUBLIC_KEY", // Reemplazar con tu clave pública de EmailJS
+            });
+        })();
+    </script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
