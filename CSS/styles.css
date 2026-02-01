@@ -941,6 +941,21 @@ section {
     opacity: 0.9;
 }
 
+.footer-certificacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-certificacion img {
+    transition: transform var(--transition-normal), filter var(--transition-normal);
+}
+
+.footer-certificacion img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 4px 12px rgba(244, 185, 66, 0.3));
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: var(--spacing-md);
